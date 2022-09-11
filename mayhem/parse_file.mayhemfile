@@ -1,0 +1,7 @@
+project: fe
+target: parse-file
+
+cmds:
+  - cmd: /parse_file
+  - cmd: /parse_file_no_inst @@
+    libfuzzer: false
